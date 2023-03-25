@@ -28,6 +28,10 @@ public class OffHeapUnsafeListTest
     @Test
     public void testArrayList()
     {
+        // TODO remove me
+        // added for testing github
+        int a = 1 + 1;
+        
         try
         {
             ArrayList<Data> queue = new ArrayList<>(iterations);
